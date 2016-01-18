@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,300,700|Playfair+Display:700,400);
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+.page-wrap {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 30px;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 400;
+}
+
+/* TITULOS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+}
+h1, h2, h3, h4 {
+	color: pink;
+	font-weight: 400;
+}
+h5, h6 {
+	color: black;
+	font-weight: 700;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 34px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+/* PARRAFO */
+p {
+	font-size: 16px;
+}
+
+/* CAJAS DE TEXTO */
+.proyectbox {
+	display: inline-block;
+	width: 30%;
+	margin: 30px;
+	border: solid black 1px;
+	padding: 20px;
+}
+.pb-titulo {
+	display: block;
+	margin-top: -30px;
+	color: white;
+	background: black;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.proyectbox.alternativo {
+	background: black;
+	color: white;
+}
+.pb-titulo.alternativo {
+	color: black;
+	background: white;
+	border: solid black 1px;
+}
+.proyectbox a {
+	color: pink;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* ENTRECOMILLADOS */
+blockquote {
+	text-indent: -30px;
+	line-height: 20px;
+}
+.bq {
+	color: pink;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0 10px;
+}
+/* BOTONES */
+a.btn {
+	margin-right: -40px;
+}
+.btn-1 {
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+}
+.btn-2 {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+}
+.btnbody {
+	position: absolute;
+	display:inline-block;
+	width:200px;
+	height:80px;
+	background-color:pink;
+	left:0px;
+	top:0px;
+}
+.cornertop {
+	position: absolute;
+	display:inline-block;
+	width:0;
+	height:0;
+	line-height:0;
+	border:15px solid transparent;
+	border-left:15px solid #ffffff;
+	border-top:15px solid #ffffff;
+	left:0px;
+	top:0px;
+}
+.cornerbottom {
+	position: absolute;
+	display:inline-block;
+	width:0;
+	height:0;
+	line-height:0;
+	border:15px solid transparent;
+	border-right:15px solid #ffffff;
+	border-bottom:15px solid #ffffff;
+	left:170px;
+	top:50px;
+}

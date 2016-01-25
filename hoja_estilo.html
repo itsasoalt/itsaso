@@ -33,36 +33,40 @@
 
     <article id="tipografia">
         <h2 class="spacetop">TIPOGRAFÍA</h2>
-        <h1>Heading H1</h1>
-        <h2>Heading H2</h2>
-        <h3>Heading H3</h3>
-        <h4>Heading H4</h4>
-        <h5>Heading H5</h5>
-        <h6>Heading H6</h6>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet orci in turpis efficitur, eu mollis dolor rutrum. Sed auctor nunc nec nulla viverra, quis malesuada erat vulputate. Cras lorem urna, commodo eu imperdiet in, tempor at ipsum. Proin ut commodo odio. Donec sit amet quam ut tortor viverra tincidunt sed eget purus. Aliquam et accumsan ligula. In hac habitasse platea dictumst. Duis convallis ligula sed lectus egestas porta. Aenean eros sapien, tempus quis laoreet in, ultricies sed arcu.</p>
-
-        <blockquote cite="#">
-            <span class="bq">&ldquo;</span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet orci in turpis efficitur, eu mollis dolor rutrum. Sed auctor nunc nec nulla viverra, quis malesuada erat vulputate. Cras lorem urna, commodo eu imperdiet in, tempor at ipsum.
-            <span class="bq">&rdquo;</span>
-        </blockquote>
-
         <section>
+            <h1>Heading H1</h1>
+            <h2>Heading H2</h2>
+            <h3>Heading H3</h3>
+            <h4>Heading H4</h4>
+            <h5>Heading H5</h5>
+            <h6>Heading H6</h6>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet orci in turpis efficitur, eu mollis dolor rutrum. Sed auctor nunc nec nulla viverra, quis malesuada erat vulputate. Cras lorem urna, commodo eu imperdiet in, tempor at ipsum. Proin ut commodo odio. Donec sit amet quam ut tortor viverra tincidunt sed eget purus. Aliquam et accumsan ligula. In hac habitasse platea dictumst. Duis convallis ligula sed lectus egestas porta. Aenean eros sapien, tempus quis laoreet in, ultricies sed arcu.</p>
+        </section>
+        
+        <section>
+            <blockquote cite="#">
+                <span class="bq">&ldquo;</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet orci in turpis efficitur, eu mollis dolor rutrum. Sed auctor nunc nec nulla viverra, quis malesuada erat vulputate. Cras lorem urna, commodo eu imperdiet in, tempor at ipsum.
+                <span class="bq">&rdquo;</span>
+            </blockquote>
+
             <ul>
-              <li>list item 1</li>
-              <li>list item 2</li>
-              <li>list item 3</li>
-              <li>list item 4</li>
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
             </ul>
 
             <ol>
-              <li>list item 1</li>
-              <li>list item 2</li>
-              <li>list item 3</li>
-              <li>list item 4</li>
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
             </ol>
+        </section>
 
+        <section>
             <dl>
               <dt>Definition title 1</dt>
               <dd>Definition description 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quibusdam, a aut saepe? Excepturi nisi consectetur ad libero expedita voluptas aspernatur officia quam. Distinctio eos inventore, eum accusantium, quae temporibus.</dd>
@@ -79,7 +83,7 @@
     
     <article id="colores">
         <h2 class="spacetop">colores</h2>
-        <div class="colores">
+        <section class="colores">
             <div class="paintchip">
                 <div class="colorpatch color1"></div>
                 <div class="namelabel">
@@ -110,42 +114,58 @@
                     #484848
                 </div>
             </div>
-        </div>
+        </section>
         
     </article>
 
     <article id="botones">
         <h2 class="spacetop">BOTONES</h2>
-        <a href="#" class="btn">
-            BOTON
-            <span class"btn-1">
-                <span class="btn-2">
-                    <i class="btnbody"></i>
-                    <i class="cornertop"></i>
-                    <i class="cornerbottom"></i>
-                </span>
-            </span>
-        </a>
+        <section>
+            <a href="#">
+                <div class="btn">
+                    BOTON
+                </div>
+            </a>
+            <a href="#">
+                <div class="btn btn-alt">
+                    BOTON
+                </div>
+            </a>
+        </section>
+        
     </article>
     
     <article id="contacto">
         <h2 class="spacetop">CONTACTO</h2>
-        <div>
-            <span>email</span>
-            <span>itsaso.altuna@gmail.com</span>
-        </div>
-        <div>
-            <span>tlf number</span>
-            <span>695706589</span>
-        </div>
-        <div>
-            <span>behance</span>
-            <span>itsaso.altuna</span>
-        </div>
+        <section>
+            <dt>contact me!</dt>
+            <dd>
+                <p>
+                    <b>e-mail |</b> itsaso.altuna@gmail.com
+                </p>
+                <p>
+                    <b>Tlf number |</b> 695706589
+                </p>
+                <p>
+                    <a href="https://www.behance.net/itsasoaltuna">
+                        <b>Behance |</b> Itsaso Altuna
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/itsasoalt">
+                        <b>Instagram |</b> itsasoalt
+                    </a>
+                </p>
+            </dd>
+            
+        </section>
+        
     </article>
 
     <footer>
-        <p>made w/love by itsaso </p>
+        <span><p>made w/</p></span>
+        <span class="heart"></span>
+        <span><p> by itsaso</p></span>
     </footer>
 
 </body>

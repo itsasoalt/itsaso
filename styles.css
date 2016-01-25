@@ -3,22 +3,27 @@
 body {
     background-color: #fff;
     margin: 0;
+    padding: 0;
 }
 .page-wrap {
     background-color: #fff;
     margin: 0 auto;
-    padding: 30px;
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 400;
+}
+article {
+	padding: 5%;
 }
 
 /* TITULO WEB */
 #home {
 	text-align: center;
+	background-color: #c8c8c8;
 }
 .spacetop {
-	padding-top: 80px;
-
+	padding-top: 60px;
+	margin: 0;
+	padding-bottom: 20px;
 }
 
 /* NAVEGADOR SUPERIOR MENU */
@@ -26,12 +31,12 @@ body {
 	margin: 0;
 	width: 100%;
 	height: 55px;
-	background: #fff;
+	background: #f8f8f8;
 	position: fixed;
 	top: 0;
 	left: 0;
 	color: #FF369B;
-	box-shadow: 0px 5px 4px #ccc;
+	box-shadow: 0px 5px 4px #181818;
 	overflow: auto;
 	z-index: 2;
 }
@@ -40,6 +45,9 @@ body {
 }
 
 /* TITULOS */
+#tipografia {
+	background-color: #f8f8f8;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
 }
@@ -51,7 +59,7 @@ h1, h2 {
 
 h3, h4, h5, h6 {
 	font-weight: 700;
-	color: #000;
+	color: #484848;
 }
 h1 {
 	font-size: 36px;
@@ -75,6 +83,7 @@ h6 {
 /* PARRAFO */
 p {
 	font-size: 16px;
+	color: #181818;
 }
 
 /* ENTRECOMILLADOS */
@@ -111,7 +120,7 @@ ol li:before{
 }
 /* CAJAS DE TEXTO */
 dd {
-	border: solid black 1px;
+	border: solid #484848 1px;
 	padding: 30px;
 	margin: 0;
 	margin-bottom: 40px;
@@ -119,8 +128,8 @@ dd {
 dt {
 	display: block;
 	margin-bottom: -20px;
-	color: white;
-	background: black;
+	color: #f8f8f8;
+	background: #484848;
 	padding: 5px;
 	text-align: center;
 	text-transform: uppercase;
@@ -130,20 +139,22 @@ dt {
 }
 
 dd.alternativo {
-	background: black;
-	color: white;
+	background: #484848;
+	color: #f8f8f8;
 }
 dt.alternativo {
 	position: relative;
-	color: black;
-	background: white;
-	border: solid black 1px;
+	color: #484848;
+	background: #f8f8f8;
+	border: solid #484848 1px;
 	z-index: 1;
 }
 
 /* COLORES */
+#colores {
+	background-color: #fff;
+}
 .colores {
-	padding: 0 200px;
 }
 .paintchip {
 	display: inline-block;
@@ -161,13 +172,13 @@ dt.alternativo {
 	height: 30px;
 	margin: 0;
 	background-color: #333;
-	color: #fff;
+	color: #e0e0e0;
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .color1 {
-	background-color: #e0e0e0;
+	background-color: #f8f8f8;
 }
 .color2 {
 	background-color: #c8c8c8;
@@ -176,33 +187,43 @@ dt.alternativo {
 	background-color: #FF369B;
 }
 .color4 {
-	background-color: #707070;
+	background-color: #484848;
 }
 .color5 {
-	background-color: #484848;
+	background-color: #181818;
 }
 
 /* BOTONES */
+#botones {
+	background-color: #c8c8c8;
+}
 #botones a {
 	margin: 0 20px;
 }
 .btn {
-	display: inline-block;
-	background-color: #000;
-	color: #fff;
-	width: 140px;
+	display: block;
+	background-color: #484848;
+	color: #f8f8f8;
+	width: 300px;
 	height: 55px;
 	text-align: center;
 	line-height: 60px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
 }
 .btn-alt {
-	background-color: #fff;
-	color: #000;
-	border: solid 1px #000;
+	background-color: #f8f8f8;
+	color: #484848;
+	border: solid 1px #484848;
 }
 /* CONTACTO */
+#contacto {
+	background-color: #f8f8f8;
+}
 #contacto dt, #contacto dd {
-	width: 20%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -213,8 +234,8 @@ dt.alternativo {
 /* FOOTER */
 footer {
 	width: 100%;
-	background-color: #000;
-	color: #fff;
+	background-color: #484848;
+	color: #e0e0e0;
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -234,7 +255,7 @@ footer span {
 	top: 0;
 	width: 7px;
 	height: 10px;
-	background: #fff;
+	background: #FF369B;
 	border-radius: 50% 50% 0 0;
 	transform: rotate(-45deg);
 	transform-origin: 0 100%;
@@ -248,6 +269,16 @@ footer span {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+#tipografia p a {
+	color: #FF369B;
+	font-weight: bold;
+}
+mark {
+	background-color: #FF369B;
+}
+.hotpink {
+	color: #FF369B;
 }
 .pull-rigth {
 	float: right;

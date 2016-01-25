@@ -15,7 +15,9 @@ body {
 /* TITULO WEB */
 #home {
 	text-align: center;
-	margin-top: 80px;
+}
+.spacetop {
+	padding-top: 80px;
 
 }
 
@@ -138,10 +140,46 @@ dt.alternativo {
 	border: solid black 1px;
 	z-index: 1;
 }
-.proyectbox a {
-	color: #FF369B;
-	font-weight: bold;
+
+/* COLORES */
+.colores {
+	padding: 0 200px;
+}
+.paintchip {
+	display: inline-block;
+	width: 15%;
+	padding: 15px;
+}
+.colorpatch {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100px;
+}
+.namelabel {
+	width: auto;
+	height: 30px;
+	margin: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
 	text-align: center;
+	text-transform: uppercase;
+}
+.color1 {
+	background-color: #e0e0e0;
+}
+.color2 {
+	background-color: #c8c8c8;
+}
+.color3 {
+	background-color: #FF369B;
+}
+.color4 {
+	background-color: #707070;
+}
+.color5 {
+	background-color: #484848;
 }
 
 /* BOTONES */
@@ -193,29 +231,6 @@ a.btn {
 	top:50px;
 }
 
-/* BOTONES */
-.paintchip {
-	display: inline-block;
-}
-.colorpatch {
-	margin: 0;
-	padding: 0;
-	width: 200px;
-	height: 200px;
-	border-radius: 10px 10px 0 0;
-}
-.namelabel {
-	width: 200px;
-	height: 80px;
-	margin: 0;
-	border-radius: 0 0 10px 10px;
-	background-color: #333;
-	color: #fff;
-
-}
-.color1 {
-	background-color: #ccc;
-}
 /* COSAS QUE SE REPITEN */
 a {
 	text-decoration: none;

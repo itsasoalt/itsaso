@@ -1,0 +1,155 @@
+body {
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	margin: 0;
+	background-color: #fff;
+	top: 0;
+	font-size: 16px;
+	height: 58px;
+	color: #333;
+	text-align: center;
+}
+header ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+header a {
+	text-decoration: none;
+	color: inherit;
+}
+ul.main-menu>li {
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	width: 150px;
+	padding: 20px;
+}
+ul.second-menu {
+	color: grey;
+	display: none;
+	padding: 0 20px;
+	margin: 17px -20px 0;
+}
+ul.second-menu>li {
+	padding: 15px 0;
+	margin: 15px -20px;
+}
+/* hover */
+ul.main-menu>li:not(.unfold-menu):hover {
+	border-bottom: 3px solid grey;
+	padding-bottom: 17px;
+}
+li.unfold-menu:hover ul.second-menu {
+	display: block;
+	background: #fff;
+	border-top: 3px solid grey;
+}
+ul.second-menu>li:hover {
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: -2px;
+	color: lightgrey;
+}
+/* active */
+ul.main-menu>li:active {
+	color: hotpink;
+}
+ul.main-menu>li:not(.unfold-menu):active {
+	border-bottom: 3px solid hotpink;
+	padding-bottom: 17px;
+}
+li.unfold-menu:active ul.second-menu {
+	display: block;
+	background: #fff;
+	border-top: 3px solid hotpink;
+}
+ul.second-menu>li:active {
+	border-bottom: 2px solid pink;
+	margin-bottom: -2px;
+	color: pink;
+}
+/* pseudo clases e iconos */
+a.img-home::before {
+	content: "___";
+    background-image: url(img/img-home.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+a.img-cv::before {
+	content: "___";
+    background-image: url(img/img-cv.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+a.img-portfolio::before {
+	content: "___";
+    background-image: url(img/img-portfolio.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+a.img-pc::before {
+	content: "___";
+    background-image: url(img/img-pc.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+a.img-gear::before {
+	content: "___";
+    background-image: url(img/img-gear.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+a.img-contact::before {
+	content: "___";
+    background-image: url(img/img-contact.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+/* pseudoelemens when hover */
+ul.main-menu>li:hover a.img-home::before {
+    background-image: url(img/img-home-g.png);
+}
+ul.main-menu>li:hover a.img-cv::before {
+    background-image: url(img/img-cv-g.png);
+}
+ul.main-menu>li:hover a.img-portfolio::before {
+    background-image: url(img/img-portfolio-g.png);
+}
+ul.second-menu>li:hover a.img-pc::before {
+    background-image: url(img/img-pc-g.png);
+}
+ul.second-menu>li:hover a.img-gear::before {
+    background-image: url(img/img-gear-g.png);
+}
+ul.main-menu>li:hover a.img-contact::before {
+    background-image: url(img/img-contact-g.png);
+}
+/* pseudoelements when clicked on */
+ul.main-menu>li:active a.img-home::before {
+    background-image: url(img/img-home-hp.png);
+}
+ul.main-menu>li:active a.img-cv::before {
+    background-image: url(img/img-cv-hp.png);
+}
+ul.main-menu>li:active a.img-portfolio::before {
+    background-image: url(img/img-portfolio-hp.png);
+}
+ul.second-menu>li:active a.img-pc::before {
+    background-image: url(img/img-pc-p.png);
+}
+ul.second-menu>li:active a.img-gear::before {
+    background-image: url(img/img-gear-p.png);
+}
+ul.main-menu>li:active a.img-contact::before {
+    background-image: url(img/img-contact-hp.png);
+}

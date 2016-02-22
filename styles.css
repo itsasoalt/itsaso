@@ -168,7 +168,7 @@ ol li:before{
 	color: #DE9BDF;
 }
 .btn-lg {
-	width: 300px;
+	min-width: 300px;
 	height: 75px;
 	font-size: 20px;
 	line-height: 75px;
